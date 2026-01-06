@@ -1,0 +1,6 @@
+nohup: ignoring input
+
+> quant-platform-frontend@1.0.0 dev
+> node server.js
+
+Server is running at http://localhost:3000

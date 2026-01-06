@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>量化策略平台</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1 class="logo">量化策略平台</h1>
+            </div>
+            <nav class="menu">
+                <a href="#data-management" class="menu-item active" data-page="data-management">
+                    <span class="menu-icon">💾</span>
+                    <span class="menu-text">数据管理</span>
+                </a>
+                <a href="#stocks" class="menu-item" data-page="stocks">
+                    <span class="menu-icon">📈</span>
+                    <span class="menu-text">股票列表</span>
+                </a>
+                <a href="#indices" class="menu-item" data-page="indices">
+                    <span class="menu-icon">📊</span>
+                    <span class="menu-text">指数列表</span>
+                </a>
+                <a href="#strategies" class="menu-item" data-page="strategies">
+                    <span class="menu-icon">🎯</span>
+                    <span class="menu-text">策略列表</span>
+                </a>
+                <a href="#backtest-results" class="menu-item" data-page="backtest-results">
+                    <span class="menu-icon">🔄</span>
+                    <span class="menu-text">回测结果</span>
+                </a>
+                <a href="#portfolio-analysis" class="menu-item" data-page="portfolio-analysis">
+                    <span class="menu-icon">📋</span>
+                    <span class="menu-text">组合分析</span>
+                </a>
+                <a href="#model-management" class="menu-item" data-page="model-management">
+                    <span class="menu-icon">🤖</span>
+                    <span class="menu-text">模型管理</span>
+                </a>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header class="header">
+                <h2 id="current-title">数据管理</h2>
+            </header>
+            <div class="content">
+                <!-- 数据管理页面 -->
+                <div id="data-management" class="page active">
+                    <div class="tabs">
+                        <button class="tab-btn active" data-tab="daily">天级数据</button>
+                        <button class="tab-btn" data-tab="minute">分钟级数据</button>
+                    </div>
+                    <div id="daily" class="tab-content active">
+                        <h3>天级数据管理</h3>
+                        <p>这里是天级数据管理页面</p>
+                    </div>
+                    <div id="minute" class="tab-content">
+                        <h3>分钟级数据管理</h3>
+                        <p>这里是分钟级数据管理页面</p>
+                    </div>
+                </div>
+                
+                <!-- 股票列表页面 -->
+                <div id="stocks" class="page">
+                    <h3>股票列表</h3>
+                    <p>这里是股票列表页面</p>
+                </div>
+                
+                <!-- 指数列表页面 -->
+                <div id="indices" class="page">
+                    <h3>指数列表</h3>
+                    <p>这里是指数列表页面</p>
+                </div>
+                
+                <!-- 策略列表页面 -->
+                <div id="strategies" class="page">
+                    <h3>策略列表</h3>
+                    <p>这里是策略列表页面</p>
+                </div>
+                
+                <!-- 回测结果页面 -->
+                <div id="backtest-results" class="page">
+                    <h3>回测结果</h3>
+                    <p>这里是回测结果页面</p>
+                </div>
+                
+                <!-- 组合分析页面 -->
+                <div id="portfolio-analysis" class="page">
+                    <h3>组合分析</h3>
+                    <p>这里是组合分析页面</p>
+                </div>
+                
+                <!-- 模型管理页面 -->
+                <div id="model-management" class="page">
+                    <h3>模型管理</h3>
+                    <p>这里是模型管理页面</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
