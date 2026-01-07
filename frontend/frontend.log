@@ -4,3 +4,11 @@ nohup: ignoring input
 > node server.js
 
 Server is running at http://localhost:3000
+Error: ENOENT: no such file or directory, stat '/home/steve/workspace/quant_platform_qlib/frontend/public/index.html'
+npm ERR! path /home/steve/workspace/quant_platform_qlib/frontend
+npm ERR! command failed
+npm ERR! signal SIGHUP
+npm ERR! command sh -c node server.js
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/steve/.npm/_logs/2026-01-06T15_32_40_038Z-debug-0.log
